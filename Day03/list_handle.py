@@ -22,7 +22,7 @@ print(nums[1:7:2])
 print('-' * 40)
 print(nums)
 
-nums[2] =  34
+nums[2] = 34
 print(nums)
 
 nums[7] = 88
@@ -34,17 +34,15 @@ print(nums)
 '''
 - 문자열은 상수 형태로 저장되는 고정형 리스트입니다.
 - 따라서 인덱싱이나, 슬라이싱을 통해 값의 복사본을 활용하는 것은
- 가능하지만, 영역에 직접 접근하여 내부의 값을 편집할 수는 없습니다.
-
+가능하지만, 영역에 직접 접근하여 내부의 값을 편집할 수는 없습니다.
 - 문자열은 변경이 불가능한 자료형입니다. (immutable)
 '''
 
 s = 'python'
 # s[2] = 'x' (x)
 
-# unpackaging: 리스트 내부 요소를 다시 변수에 저장
+# unpackaging: 리스트 내부 요소를 다시 변수에 저장.
 # pokemon = ['피카츄', '라이츄', '파이리', '꼬부기', '버터풀']
-
 '''
 p = pokemon[0]
 r = pokemon[1]
@@ -62,5 +60,6 @@ print(p, r, c, s, b)
 list1 = []
 
 list2 = list()
+print(list2)
 
 
