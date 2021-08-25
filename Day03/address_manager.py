@@ -7,6 +7,7 @@ namelist = []
 phonelist = []
 
 
+
 while True:
     print("\n---------- 연락처 관리 프로그램 ----------")
     print("1. 연락처 등록")
