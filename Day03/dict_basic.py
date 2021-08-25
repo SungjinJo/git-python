@@ -7,6 +7,7 @@
 - 사전을 정의하는 기호는 {}이고, 괄호 안에 데이터를
 key:value 형태로 나열하여 저장합니다.
 '''
+
 students = {'멍멍이':'김철수', '야옹이':'박영희', '짹짹이':'홍길동'}
 print(type(students))
 print(len(students))

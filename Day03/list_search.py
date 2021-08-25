@@ -1,4 +1,3 @@
-
 '''
 * 리스트의 탐색과 정렬
 
@@ -23,6 +22,7 @@ print(f'최저 점수는 {min(points)}점 입니다.')
 print('-' * 40)
 print(points)
 points.sort(reverse=True)
+
 # points.reverse() # 역순 배치
 print(points)
 
