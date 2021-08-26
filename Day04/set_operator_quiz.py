@@ -24,4 +24,3 @@ for n in li2:
 print(li3)
 '''
 
-
