@@ -43,4 +43,3 @@ for x in range(3, 9):
         time.sleep(0.7)
         driver.back()
         time.sleep(0.5)
-
