@@ -1,4 +1,3 @@
-
 # 셀레늄: 웹 자동화 및 웹의 소스코드를 수집하는 모듈
 # cmd -> pip install selenium (셀레늄 라이브러리 다운로드)
 # 셀레늄 임포트
@@ -12,6 +11,7 @@ driver = webdriver.Chrome('C:/Users/Sungjin/Desktop/JAVA_WEP/python/chromedriver
 driver.get('https://www.naver.com')
 
 time.sleep(1)
+
 
 '''
 # 자동으로 버튼이나 링크 클릭 제어하기.
