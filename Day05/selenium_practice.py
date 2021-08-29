@@ -1,4 +1,3 @@
-
 '''
 네이버로 접속하셔서 뉴스스탠드 쪽에 있는 파란색 '네이버 뉴스'를
 클릭하세요.
@@ -11,10 +10,11 @@ XPATH를 따다 보면 규칙을 발견하실 수 있을 겁니다.
 반복문 이용해서 클릭 명령을 내려 주시면 됩니다.
 24개의 명령을 일일히 쓰라는 게 아니에요. 규칙을 꼭 발견 하세요.
 '''
+
 from selenium import webdriver
 import time
 
-driver = webdriver.Chrome('C:/Users/admin/Desktop/java_web_LKM/python/crawling/chromedriver.exe')
+driver = webdriver.Chrome('C:/Users/Sungjin/Desktop/JAVA_WEP/python/chromedriver.exe')
 
 driver.get('https://www.naver.com')
 
