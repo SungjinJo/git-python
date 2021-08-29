@@ -1,4 +1,3 @@
-
 '''
 * 예외 일부러 발생시키기
 
@@ -8,6 +7,7 @@
 - 파이썬은 raise라는 명령을 사용해서 오류를 강제로 발생시킬
 수 있습니다.
 '''
+
 def calc_sum(end):
     if end <= 0:
         raise ValueError
