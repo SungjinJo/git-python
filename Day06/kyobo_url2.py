@@ -42,7 +42,3 @@ with codecs.open(file_path, mode="w", encoding="utf-8") as f:
     
     f.write('</body> \r\n')
     f.write('</html> \r\n')
-
-
-
-
