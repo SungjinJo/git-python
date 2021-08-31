@@ -85,3 +85,4 @@ os.startfile(path)
 
 print("5초 뒤 자동 종료됩니다!")
 t.sleep(5)
+
