@@ -80,6 +80,7 @@ for i, img in enumerate(img_list, 1):
 # 다운 완료
 print("download success!")
 
+
 path = os.path.realpath(savePath)
 os.startfile(path)
 
