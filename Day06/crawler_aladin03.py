@@ -136,6 +136,5 @@ while True:
         print('크롤링 종료!')
         break # while True break
 
-
 browser.close()
 workbook.close()
