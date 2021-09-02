@@ -74,4 +74,3 @@ with codecs.open(file_path, mode='w', encoding='utf-8') as f:
             f.write('-' * 40 + '\n')
             rank += 1
 
-
