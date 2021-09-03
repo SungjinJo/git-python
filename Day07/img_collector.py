@@ -33,7 +33,7 @@ print(url)
 save_path = 'C:/imagedown/'
 
 # 폴더 생성(예외 처리)
-
+       
 try:
     # 기존 폴더 있는지 체크
     if not os.path.isdir(save_path):
