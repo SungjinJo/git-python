@@ -8,6 +8,7 @@ d = datetime.today()
 
 file_path = f"C:/Users/Sungjin/Desktop/JAVA_WEP/python/교보 베스트셀러({d.year}년 {d.month}월 {d.day}일).html"
 
+
 with codecs.open(file_path, mode="w", encoding="utf-8") as f:
     driver = webdriver.Chrome("C:/Users/Sungjin/Desktop/JAVA_WEP/python/chromedriver.exe")
     driver.get('http://www.kyobobook.co.kr/bestSellerNew/bestseller.laf?orderClick=d79')
