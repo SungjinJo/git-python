@@ -77,6 +77,7 @@ for i, img in enumerate(img_list, 1):
     # 다운로드 요청
     req.urlretrieve(img['data-source'], full_file_name)
 
+
 # 다운 완료
 print("download success!")
 
